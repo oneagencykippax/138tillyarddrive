@@ -1,0 +1,412 @@
+{
+  "settings": {
+    "name": "NewSite-12-16_0816",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "versionFirst": "3.10.3",
+    "uniqCompNum": 15,
+    "versionPublish": "3.10.3"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header7",
+          "_styles": {
+            "P": {
+              "font-size": "18px",
+              "color": "#ffffff"
+            },
+            ".features-list i": {
+              "color": "#ffffff",
+              "border-color": "#ffffff"
+            }
+          },
+          "_anchor": "header7-5",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "iconsColor": "#ffffff",
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/698a7939-copy-2000x1333-34.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showIcons": true,
+            "icon1": "fa-bed",
+            "showTitles": true,
+            "icon2": "fa-bath",
+            "icon3": "fa-car",
+            "icon4": "fa-area-chart"
+          },
+          "title": "Welcome to 138 Tillyard Drive FLYNN.",
+          "text": "Immaculate, centrally located and boasting plenty of extra features, this Flynn home is a must-see for anyone needing space, privacy and convenience.",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-danger\" data-toolbar=\"-mbrBtnMove\">View Online<br></a>",
+          "title1": "4 bedrooms",
+          "title2": "2 bathrooms",
+          "title3": "10 cars",
+          "title4": "1046m2"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-b",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "AUCTION 04/02/2017",
+          "text": "Register your interest now",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-danger\" href=\"index.html#contacts4-d\" data-toolbar=\"-mbrBtnMove\">REGISTER YOUR INTEREST</a>",
+          "_styles": {
+            "H2": {
+              "font-size": "36px"
+            },
+            ".btn": {
+              "font-size": "20px"
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/698a7914-copy-2000x1333-39-800x533-70.jpg",
+                "image": "@PROJECT_PATH@/assets/images/698a7914-copy-2000x1333-39.jpg",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/698a7907-copy-2000x1333-29-800x533-72.jpg",
+                "image": "@PROJECT_PATH@/assets/images/698a7907-copy-2000x1333-29.jpg",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/698a7920-copy-2000x1333-8-800x533-56.jpg",
+                "image": "@PROJECT_PATH@/assets/images/698a7920-copy-2000x1333-8.jpg",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/698a7929-copy-2000x1333-23-800x533-26.jpg",
+                "image": "@PROJECT_PATH@/assets/images/698a7929-copy-2000x1333-23.jpg",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/698a7935-copy-2000x1333-33-800x533-17.jpg",
+                "image": "@PROJECT_PATH@/assets/images/698a7935-copy-2000x1333-33.jpg",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/698a7937-copy-2000x1333-76-800x533-98.jpg",
+                "image": "@PROJECT_PATH@/assets/images/698a7937-copy-2000x1333-76.jpg",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/698a7943-copy-2000x1333-18-800x533-60.jpg",
+                "image": "@PROJECT_PATH@/assets/images/698a7943-copy-2000x1333-18.jpg",
+                "active": false
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/698a7939-copy-2000x1333-20-800x533-4.jpg",
+                "image": "@PROJECT_PATH@/assets/images/698a7939-copy-2000x1333-20.jpg",
+                "active": true
+              }
+            ],
+            "showText": false,
+            "bgColor": "#fff",
+            "filter": false,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-6",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box11",
+          "_anchor": "msg-box11-a",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "138 Tillyard Drive, Flynn",
+          "text": "Immaculate, centrally located and boasting plenty of extra features, this Flynn home is a must-see for anyone needing space, privacy and convenience.<br><br>The floorplan features four bedrooms, all with built-in robes and an ensuite for the master, plus a studio with ensuite in the garage. <br><br>For the home cook, the spacious kitchen has plenty of bench and storage space, plus gas cooking, a 900mm wide oven and breakfast bar for casual dining.<br><br>When it's time to relax, there is a large living room, a side patio for entertaining friends, a barbecue alfresco area and native gardens with a pond and fruits trees where you can wander and be surrounded by nature.<br><br>Built for the climate, this property features ducted heating and cooling and double glazed windows in the main areas. <br><br>The garage is sure to impress, with space for more than 6 cars, a workshop and studio with ensuite, the man of the house will be otherwise occupied for the foreseeable future.<br><br>Additional features include a garden shed for extra storage, extensive landscaping and off-street parking for guests, caravans or boats.<br><br>All of this is set on a 1046m2 fully-fenced block close to local schools, shops and public transport.<br><br>Onsite Auction 11am 04/02/2017, this home MUST be sold on the day.<br><br>Have you been looking for these features?<br><br>4 bedrooms plus studio with ensuite in garage<br>Established native gardens<br>Oversize garage and workshop<br>New driveway<br>Extensive hard landscaping<br>Foxtel<br>Alarm<br>Pond<br>Double glazed windows facing street<br>Covered BBQ area with ceiling fan, gas, hot and cold water connections<br>Large garden shed<br>Raised vegetable gardens<br>Plenty of off street parking<br>Gas cooktop<br>New metal fencing<br>"
+        },
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#ff5722"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#000000"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#000000"
+            },
+            ".navbar-toggler": {
+              "color": "#ff5722"
+            }
+          },
+          "_name": "dropdown-menu1",
+          "_anchor": "dropdown-menu1-c",
+          "_params": {
+            "bgColor": "#000000",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#ff5722",
+            "transparent": true,
+            "sticky": false,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/oa-cmykwht-kippax-513x128-21.jpg",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-danger\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">1800 2615 17</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts4-d\">CONTACT</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary mbr-title-font\" href=\"https://mobirise.com/\">For Windows</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger mbr-title-font\" href=\"https://mobirise.com/\">For Mac</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_anchor": "contacts4-d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#333333",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "googleMap": {
+              "address": "138 Tillyard Drive Flynn",
+              "placeId": "ChIJm5vt4k6sF2sR4FZRXB3nSPA",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "GET IN TOUCH",
+          "text1": "Want to know more about this property or others we have?",
+          "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\"><i class=\"fa fa-linkedin\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"fa fa-facebook\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\"><i class=\"fa fa-twitter\"></i></a>  <a class=\"fa\" data-app-btn=\"true\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+Mobirise/posts\"><i class=\"fa fa-google-plus\"></i></a> <a class=\"fa\" data-app-btn=\"true\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"fa fa-instagram\"></i></a> ",
+          "text2": "Working Hours:<br>Mon - Sun &nbsp; 8AM - 8PM",
+          "title": "Quick Message",
+          "form": {
+            "action": "stevelowe@oneagency.com.au",
+            "alerts": {
+              "success": "Thank you, we will be in touch shortly"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Your Name here"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email Address here"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message here"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-ico btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Send Message<i class=\"fa fa-paper-plane-o\"></i></a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box17",
+          "_anchor": "msg-box17-e",
+          "_params": {
+            "elements": "4",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitles": true,
+            "showSubtitle": true,
+            "showText": true
+          },
+          "button1": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-circle btn-danger\" data-toggle=\"tab\" href=\"http://oneagencykippax.com.au/listings?type=Buy\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-info fa-3x\"></i></a>",
+          "title1": "CURRENT LISTINGS",
+          "button2": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-circle btn-danger\" data-toggle=\"tab\" href=\"http://my.setmore.com/bookingpage/f4a6c018-903a-44dc-9741-f96d7ea98630\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-clock mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a>",
+          "title2": "BOOK AN APPOINTMENT",
+          "button3": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-circle btn-danger\" data-toggle=\"tab\" href=\"https://www.ratemyagent.com.au/real-estate-agency/one-agency-kippax-as361/reviews\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-quote mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a> ",
+          "title3": "TESTIMONIALS",
+          "button4": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-circle btn-danger\" data-toggle=\"tab\" href=\"www.oneagencykippax.com.au\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbri-info mbr-iconfont mbr-iconfont-btn\" style=\"font-size: 30px;\"></span></a>",
+          "title4": "MORE INFORMATION",
+          "button5": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default btn-circle\" data-toggle=\"tab\" href=\"#menu5-1\"><i class=\"fa fa-star fa-3x\"></i></a>",
+          "title5": "Upload<br />information",
+          "subtitle1": "One Agency Kippax",
+          "text1": "Transitioning from the residential building industry to real estate sales means that Steve is able to offer his clients the best of both worlds; pre-sale renovation advice and property valuations, alongside effective marketing strategies and strong negotiation and closing skills.<br><br>Working with a select client base, Steve delivers individualised support and personalised advice that is specific to the Canberra areas of Dunlop, Macgregor, Higgins and Holt. You’ll receive qualified advice about your home’s key selling points, its value and any repairs that may be needed in order to prepare it for sale. <br><br>Engaging Steve as your agent means you can take the stress out of your selling or buying experience. With Steve on your side, you’ll be able to work together to come up with a plan that will bring maximum results in the shortest possible time.<br>",
+          "subtitle2": "One Agency Kippax and Steve Lowe",
+          "text2": "Transitioning from the residential building industry to real estate sales means that Steve is able to offer his clients the best of both worlds; pre-sale renovation advice and property valuations, alongside effective marketing strategies and strong negotiation and closing skills.<br><br>Working with a select client base, Steve delivers individualised support and personalised advice that is specific to the Canberra areas of Dunlop, Macgregor, Higgins and Holt. You’ll receive qualified advice about your home’s key selling points, its value and any repairs that may be needed in order to prepare it for sale. <br><br>Engaging Steve as your agent means you can take the stress out of your selling or buying experience. With Steve on your side, you’ll be able to work together to come up with a plan that will bring maximum results in the shortest possible time.<br>",
+          "subtitle3": "Upload Images",
+          "text3": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut.",
+          "subtitle4": "One Agency Kippax and Steve Lowe",
+          "text4": "Transitioning from the residential building industry to real estate sales means that Steve is able to offer his clients the best of both worlds; pre-sale renovation advice and property valuations, alongside effective marketing strategies and strong negotiation and closing skills.<br><br>Working with a select client base, Steve delivers individualised support and personalised advice that is specific to the Canberra areas of Dunlop, Macgregor, Higgins and Holt. You’ll receive qualified advice about your home’s key selling points, its value and any repairs that may be needed in order to prepare it for sale. <br><br>Engaging Steve as your agent means you can take the stress out of your selling or buying experience. With Steve on your side, you’ll be able to work together to come up with a plan that will bring maximum results in the shortest possible time.<br>",
+          "subtitle5": "Upload Information",
+          "text5": "Nam sed mollis nisi. Praesent laoreet imperdiet est eget viverra. Aliquam ultrices euismod pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed pellentesque nibh eros, sed semper metus interdum nec. Aliquam erat volutpat. Morbi ut lectus venenatis, rutrum nunc ut, consectetur purus. Praesent ultrices sapien quam, non elementum metus sagittis id. Quisque rutrum, ex sed ultrices congue, ante nulla varius ipsum, id malesuada lorem justo eget sem. Aliquam erat volutpat. Curabitur a libero sem. Donec pulvinar aliquet dui, non varius ipsum ultricies sed. Praesent molestie arcu arcu, eu fermentum justo malesuada ut."
+        }
+      ]
+    }
+  }
+}
