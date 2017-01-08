@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "NewSite-12-16_0816",
+    "name": "Tillyard Drive",
     "currentPage": "index.html",
     "theme": {
       "name": "unicore",
@@ -18,7 +18,11 @@
     },
     "versionFirst": "3.10.3",
     "uniqCompNum": 15,
-    "versionPublish": "3.10.3"
+    "versionPublish": "3.10.3",
+    "favicon": "@PROJECT_PATH@/assets/images/oa-cmykwht-kippax.gif",
+    "noImageResize": "",
+    "cookiesAlert": "",
+    "path": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -70,7 +74,7 @@
             "showIcons": true,
             "icon1": "fa-bed",
             "showTitles": true,
-            "icon2": "fa-bathtub",
+            "icon2": "fa-s15",
             "icon3": "fa-car",
             "icon4": "fa-area-chart"
           },
@@ -88,6 +92,14 @@
             "Theme"
           ],
           "_name": "msg-box1",
+          "_styles": {
+            "H2": {
+              "font-size": "36px"
+            },
+            ".btn": {
+              "font-size": "20px"
+            }
+          },
           "_anchor": "msg-box1-b",
           "_params": {
             "paddingTop": 2,
@@ -110,15 +122,7 @@
           },
           "title": "AUCTION 04/02/2017",
           "text": "Register your interest now",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-danger\" href=\"index.html#contacts4-d\" data-toolbar=\"-mbrBtnMove\">REGISTER YOUR INTEREST</a>",
-          "_styles": {
-            "H2": {
-              "font-size": "36px"
-            },
-            ".btn": {
-              "font-size": "20px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-danger\" href=\"index.html#contacts4-d\" data-toolbar=\"-mbrBtnMove\">REGISTER YOUR INTEREST</a>"
         },
         {
           "alias": "unicore/components",
